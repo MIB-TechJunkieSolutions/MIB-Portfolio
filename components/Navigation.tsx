@@ -3,7 +3,7 @@ import { NavLinks } from '@/constants/Index'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React, { useEffect, useState } from 'react'
-// import Transition from "./Transition";
+import Transition from "./transition";
 
 const Navigation = () => {
     const [isRouting, setisRouting] = useState(false)
@@ -31,7 +31,7 @@ const Navigation = () => {
       <div style={{ left: "20%" }}
       className="absolute z-[50] top-6 w-[100%] md:w-[20%] max-h-[100px] rounded-full flex justify-center items-center border bg-black border-white px-4 py-4">
 
-      {/* {isRouting && <Transition />} */}
+      {isRouting && <Transition />}
       {NavLinks.map((nav) => (
         <Link key={nav.name} href={nav.link} className="mb-2 pl-4 min-w-[20%]">
           <nav.icon
