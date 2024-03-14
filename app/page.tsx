@@ -24,11 +24,11 @@ export default function Home() {
           <Link href="/my-skills" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
             Learn More
           </Link>
-          <Link href="/my-projects" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+          <Link href="/my-projects" className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
             <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group hover:opacity-20"/>
             My Projects
           </Link>
-          <Link href="/contact-me" className="rounded-[20px] group relative bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+          <Link href="/contact-me" className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px]">
             <div className="absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hver:opacity-20"/>
             Contact Me
           </Link>
@@ -41,10 +41,10 @@ export default function Home() {
       <Link href="/my-skills" className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
         Learn More
       </Link>
-      <Link href="/my-projects" className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+      <Link href="/my-projects" className="rounded-[20px] group bg-transparent px-5 py-3 text-lg text-white border border-white max-w-[200px]">
         My Projects
       </Link>
-      <Link href="/contact-me" className="rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg text-white max-w-[200px]">
+      <Link href="/contact-me" className="rounded-[20px] group bg-transparent px-5 py-3 text-lg text-white border border-white max-w-[200px]">
         Contact Me
       </Link>
     </div>
