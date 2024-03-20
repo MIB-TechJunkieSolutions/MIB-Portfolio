@@ -63,12 +63,6 @@ export const SkillData = [
     height: 80,
   },
   {
-    name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
-    height: 80,
-  },
-  {
     name: "Mongo db",
     Image: "/mongodb.png",
     width: 40,
@@ -78,17 +72,14 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
+    name: "Instagram",
     src: "/instagram.svg",
   },
   {
     name: "Facebook",
     src: "/facebook.svg",
   },
-  {
-    name: "Instagram",
-    src: "/discord.svg",
-  },
+  
 ];
 export const Projects = [
   {

@@ -5,19 +5,20 @@ import Link from "next/link";
 export default function Home() {
   return (
   <main className="w-screen h-screen relative">
-    <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage: 'url(/main-bg.webp)'}}>
+    <div className="flex items-center w-full h-full bg-cover bg-center" style={{backgroundImage: 'url(/main-bg.jpg)'}}>
 
       <div className="pl-20 pt-[15%] md:pl-40 pb-56 m:pb-20 flex flex-col gap-5 z-[10] max-w-[750px]">
-        <h1 className="text-[50px] text-white font-semibold">
-          Make anything possible with
+        <h1 className="text-[40px] text-white font-semibold">
+          Elevate Your Online Presence with
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> 
           {" "} 
-          TechSolutions
+          MIB-TechSolutions
           </span>
         </h1>
 
         <p className="text-gray-200 hidden md:block">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat minus tenetur, dolorum nulla repudiandae voluptatum autem! Blanditiis sint, odio vel mollitia iusto cum, in consectetur ducimus exercitationem, quam minus. Iste.
+        Unlock the potential of your business with top-notch web development solutions. As a skilled web developer, I specialize in crafting engaging websites and intuitive applications that captivate your audience. Let's bring your digital vision to life. 
+        {/* Click the contact button and let's get started! */}
         </p>
 
         <div className="flex-col gap-5 md:flex-row hidden md:flex">
@@ -65,7 +66,7 @@ export default function Home() {
       />
     </div>
 
-    <div className="absolute bottom-0 z-[5] w-full h-auto">
+    <div className="absolute bottom-0 z-[5] w-full h-auto sm:display-none">
       <Image
         src='/trees.webp'
         alt="horse"
