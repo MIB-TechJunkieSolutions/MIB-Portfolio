@@ -1,7 +1,7 @@
 "use client"
 
 import ProjectCard from '@/components/ProjectCard'
-import { Projects } from '@/constants'
+import { Projects } from '@/constants/Index'
 import React from 'react'
 
 const Page = () => {
